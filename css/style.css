@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#whather{
+    background: url("../img/Blue_sky,_white-gray_clouds.png") no-repeat center / cover;
+    min-height: 100vh;
+}
+
+.whather-input{
+    width: 400px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 60px;
+    border: 2px solid #fff;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+.whather-input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.whather-search{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.whather-input-btn{
+    padding: 10px 20px;
+    background: #44de37;
+    border: 3px solid #44de37;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.whather-input-btn:hover{
+    background: none;
+    border: 3px solid #44de37;
+}
+
+.whather-context{
+    text-align: center;
+    margin-top: 100px;
+    display: none;
+}
+
+.whather-name{
+    color: #FFF;
+    font-size: 40px;
+}
+.whather-name-deg{
+    font-size: 70px;
+    color: #FFF;
+}
+
+
+@media (min-width: 320px) {
+    .whather-input{
+        width: 260px;
+        padding: 0 20px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .whather-input-btn{
+        padding: 2px 20px;
+    }
+    .whather-name{
+        margin-top: -50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
